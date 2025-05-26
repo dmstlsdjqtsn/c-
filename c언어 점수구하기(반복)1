@@ -1,4 +1,4 @@
-#include <stdio.h>//사용자가 학생수를 알고있읋때
+#include <stdio.h>//사용자가 학생수를 알고있읋때//프리컨디션 0번이상 반복
 #pragma warning(disable:4996)
 int main()
 {
