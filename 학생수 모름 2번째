@@ -1,5 +1,5 @@
-#include <stdio.h>//포스트 컨티션
-#pragma warning(disable:4996)
+#include <stdio.h>//포스트 컨티션 1번이상 반복
+#pragma warning(disable:4996) 
 int main()
 {
 	int kor, cnt = 0, sum = 0;
