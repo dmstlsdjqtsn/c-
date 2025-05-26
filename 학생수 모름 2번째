@@ -1,0 +1,21 @@
+#include <stdio.h>
+#pragma warning(disable:4996)
+int main()
+{
+	int kor, cnt = 0, sum = 0;
+	char ans;
+	do {
+		printf("%d번째 학생의 국어점수를 입력하세요", cnt + 1);
+		scanf("%d", &kor);
+		sum += kor;
+		cnt++;
+
+		printf("계속 입력하시겠습니까?(Y/y):");
+		scanf("\n %c", &ans);
+
+	} while (ans == 'Y' || ans == 'y');
+
+	
+	printf("평균은%f\n", (double)sum / cnt);
+	return 0;
+}
