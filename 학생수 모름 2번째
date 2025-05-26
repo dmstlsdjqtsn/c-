@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include <stdio.h>//포스트 컨티션
 #pragma warning(disable:4996)
 int main()
 {
