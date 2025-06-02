@@ -4,9 +4,10 @@ int main()
 {
 	int x[10];
 	int i = 0;
-	int u=0;
+	int u;
 	for (i = 0; i < 10; i++)
 	{
+		u = x[0];
 		scanf("%d", &x[i]);
 		if(u<x[i])
 		u = x[i];
