@@ -1,0 +1,28 @@
+#include<stdio.h>
+#pragma warning(disable:4996)
+int main()
+{
+	int num, stu_num[10], kor[10], rank[10];
+	int i, j;
+
+	printf("입력할 학생의 명수를 입력하세요:");
+	scanf("%d", &num);
+
+	printf("학생 %d명의 번호와 국어점수를 입력하세요>", num);
+	for (i = 0; i < num; i++)
+		scanf("%d %d", &stu_num[i], &kor[i]);
+
+	for (i = 0; i < num; i++)
+	{
+		rank[i] = 1;
+		for (j = 0; j < num; kor[j])
+			if (kor[i] < kor[j])
+				rank[i] = rank[i] + 1;
+
+	}
+	for (i = 0; i < num; i++)
+		printf("%d %d %d\n", stu_num[i], kor[i], rank[i]);
+	return 0;
+
+}
+		
