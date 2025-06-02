@@ -15,7 +15,7 @@ int main()
 	for (i = 0; i < num; i++)
 	{
 		rank[i] = 1;
-		for (j = 0; j < num; kor[j])
+		for (j = 0; j < num; j++)
 			if (kor[i] < kor[j])
 				rank[i] = rank[i] + 1;
 
